@@ -12,3 +12,5 @@ for x,y in dic.items():
 	print(y)
 gen=[]
 print(200)
+
+print(200)

@@ -5,19 +5,16 @@
 The two values must be integers.'''
 import sys
 
-def func():
+
+def func(indx):
     '''Prints the maximum of two numbers.
 
     The two values must be integers.'''
-    print(100)
+
+    print(indx)
 
 
 for i in range(1, 100):
-    func()
+    func(i)
 for item in sys.path:
     print(item)
-
-print(func.__doc__)
-print(100)
-
-print(200)
